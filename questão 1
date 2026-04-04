@@ -1,14 +1,22 @@
-#include <stdio.h>
-#include <locale.h>
-int main(){
-	setlocale(LC-ALL, "portuguese");
-	int primeiro_numero, segundo_numero;
-	
-	printf("digite);
-	
-	
-	
-	
-	
-	return 0;
-}
+ #include <stdio.h>
+ int main () {
+	 
+	 int primeiro_valor, segundo_valor, resultado;
+	 
+	 printf("Digite seu primeiro valor: ");
+	 scanf("%d", &primeiro_valor);
+	 
+	 
+	printf("Digite o segundo_valor: ");	 
+    scanf("%d", &segundo_valor);
+	 
+	 
+	 resultado=primeiro_valor * segundo_valor;
+	 printf("resultado:%d\n", resultado);
+	 
+	 
+	 return 0;
+	 
+	 
+	 
+ }
