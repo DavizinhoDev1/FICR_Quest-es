@@ -1,1 +1,21 @@
-
+#include <stdio.h>
+int main(){
+	
+	int x, y, quociente, resto;
+	
+	printf("Digite um numero: ");
+	scanf("%d", &x);
+	
+	printf("Digite o Segundo Numero: ");
+	scanf("%d", &y);
+	
+	
+	quociente = x / y;
+	resto = x % y;
+	
+	printf("Quociente: %d\n", quociente);
+	printf("resto: %d\n", resto);
+	
+	
+	return 0;
+}
