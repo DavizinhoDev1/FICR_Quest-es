@@ -1,1 +1,41 @@
+#include <stdio.h>
 
+int main() {
+    
+    float fabrica, farevendedor, final;
+    
+    
+    printf("Preco da fabrica: ");
+    scanf("%f", &fabrica);
+    
+    
+    printf("preco do revendedor da fabrica: ");
+    scanf("%f", &farevendedor);
+   
+	final = fabrica + (fabrica * 0.45) + (farevendedor * 0.28);
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main() {
+    float fabrica, final;
+
+    printf("Preço de fábrica: ");
+    scanf("%f", &fabrica);
+
+    final = fabrica + (fabrica * 0.45) + (fabrica * 0.28);
+
+    printf("Preço final: %.2f\n", final);
+
+    return 0;
+}
