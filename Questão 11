@@ -1,1 +1,20 @@
+#include <stdio.h>
 
+int main() {
+    
+    float compra, pago, troco;
+    
+    
+    printf("Digite o valor da compra: ");
+    scanf("%f", &compra);
+    
+    printf("Valor Pago: ");
+    scanf("%f", &pago);
+    
+    troco = pago - compra;
+    
+	printf("Troco:%.2f\n", troco);    
+	
+    
+    return 0;
+}
