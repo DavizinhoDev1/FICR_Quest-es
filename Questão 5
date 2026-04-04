@@ -1,1 +1,18 @@
-
+#include <stdio.h>
+#define pol 2.54
+int main() {
+    
+    float cm, polegadas;
+    
+    
+    printf("Digite um valor em Centimentro: ");
+    scanf("%f", &cm);
+    
+    
+    polegadas = cm / pol;
+    
+    
+	printf("Em polegadas:%.2f\n", polegadas);    
+    
+    return 0;
+}
